@@ -29,7 +29,6 @@
 	<build>
 		<finalName>selenium</finalName>
 		<plugins>
-
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
 				<artifactId>maven-jetty-plugin</artifactId>
@@ -92,6 +91,10 @@
 				<version>2.4.2</version>
 				<configuration>
 					<skip>true</skip>
+					<!-- <excludes> -->
+						<!-- <exclude>com/succez/test/units/**</exclude> -->
+						<!-- <exclude>com/succez/test/selenium/**</exclude> -->
+					<!-- </excludes> -->
 				</configuration>
 
 				<executions>
